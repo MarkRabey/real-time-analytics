@@ -23,7 +23,7 @@ io.sockets.on('connection', function(socket) {
   io.sockets.emit('pageview', {'connections':Object.keys(io.connected).length - 1});
   socket.on('message', function (message) {
       console.log('Received message: ' + message);
-      io.sockets.emit('pageview', {'connections':Object.keys(io.connected).length - 1, 'url': message,'ip':socket.handshake.address.address,'time':new Date()});
+      io.sockets.emit('pageview', {'connections':Object.keys(io.connected).length - 1, 'url': message.url,'ip':socket.handshake.address.address,'time':new Date()});
   });
 });
 
