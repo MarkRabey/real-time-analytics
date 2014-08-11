@@ -1,0 +1,16 @@
+{
+  "name": "real-time-analytics",
+  "version": "0.1.1",
+  "description": "Simple proof of concept for real time analytics with node.js and socket.io",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Rabey",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.8.2",
+    "socket.io": "1.0.2",
+    "jade": "^1.5.0"
+  }
+}
