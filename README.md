@@ -1,6 +1,8 @@
 real-time-analytics
 ===================
 
+[![Join the chat at https://gitter.im/MarkRabey/real-time-analytics](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/MarkRabey/real-time-analytics?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A simple proof of concept for real-time analytics with Node.js and Socket.io
 
 
